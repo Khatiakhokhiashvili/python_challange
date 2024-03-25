@@ -1,0 +1,21 @@
+def write_to_file():
+    """ Now, we need to write our analysis to a text file. """
+
+    file_name = 'PyBank/analysis/pybank_analysis.txt'  # path and name of the file
+    print('Writing to a file...')
+
+    with open(file_name, 'w') as f:
+        # '\n' jumps to the next line, so text isn't written on the same line. 
+        f.write('Financial Analysis\n\n')  
+        f.write('-----------------------------\n\n')
+        f.write(f'Total Months: {total_num_months()}\n')
+        f.write(f'Total: ${net_total()}\n')
+        f.write(f'Average Change: ${average_change()}\n')
+        f.write(f'Greatest Increase in Profit: {greatest_increase()}\n')
+        f.write(f'Greatest Decrease in Profit: {greatest_decrease()}\n')
+
+    print('Finished writing to a file.')
+
+
+# Call the function to write to the file 
+write_to_file()
