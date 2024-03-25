@@ -1,5 +1,3 @@
- python_challange
-# In this activity,  Your task is to create a Python script that analyzes the records to calculate each of the following values:
 #Budget Data Analysis
 *This project includes a Python script designed to analyze financial records for a company. 
 The dataset is expected to be in CSV format, containing records of the company's budget over several months. Each record includes the month and the company's earnings or losses during that month.
@@ -7,19 +5,14 @@ The dataset is expected to be in CSV format, containing records of the company's
 Features:
 *The script provides the following financial analysis capabilities:
 
-# The total number of months included in the dataset
 *Total Number of Months: Calculates the total number of months included in the dataset.
 
-# The net total amount of "Profit/Losses" over the entire period
 *Net Total Amount: Computes the net total amount of "Profit/Losses" over the entire period.
 
-# The changes in "Profit/Losses" over the entire period, and then the average of those changes
 *Average Change: Calculates the average change in "Profit/Losses" between months over the entire period.
 
-# The greatest increase in profits (date and amount) over the entire period
 *Greatest Increase in Profits: Identifies the month and amount of the greatest increase in profits over the entire period.
 
-# The greatest decrease in profits (date and amount) over the entire period
 *Greatest Decrease in Profits: Identifies the month and amount of the greatest decrease in profits over the entire period.
 
 
